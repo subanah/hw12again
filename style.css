@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Ubuntu", sans-serif;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+:root{
+    --primary-clr:#0f2f44;
+    --cmn-font:"Ubuntu", sans-serif;
+}
+.row{
+    display: flex;
+}
+/* header */
+header{
+    background-color: var(--primary-clr);
+    color: #fff;
+}
+.container{
+    margin: auto;
+    width: 1170px;
+}
+
+header span{
+    padding: 19px 0;
+    display: inline-block;
+    line-height: 0;
+}
+header .row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* header end */
+/* nav */
+nav .row{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+}
+nav ul li{
+    display: inline-block;
+    
+
+}
+nav ul li a{
+   
+    display: inline-block;
+    padding: 40px 20px;
+    color: black;
+    font-size: 16px;
+
+}
+nav ul li button{
+    margin: 0 10px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+    background-color: transparent;
+    color: #999999;
+    flex-wrap: wrap;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+}
+nav ul .active{
+    background-color: #fff9e6;
+    color: #ffcc66;
+}
+nav ul li a:hover{
+    color: #ffcc66;
+}
+/* nav end */
+/* BANNER */
+#banner{
+    background-image: url(./img/bgimg1.png);
+    height: 584px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#banner .row{
+    align-items: center;
+   height: 584px;
+   padding-top: 137px;
+   
+}
+#banner .banner-contains{
+    width: 470px;
+}
+#banner .banner-contains h4{
+    
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+      
+      
+}
+#banner .banner-contains h1{
+    
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+  
+  
+}
+#banner .banner-contains p{
+    
+    font-family: "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    letter-spacing: 23px;
+    color: #8484bf;
+  
+  
+}
+#banner .banner-contains span{
+    line-height: 24px;
+    font-size: 14px;
+
+}
+#banner .btn-group{
+   height: 42px;
+   display: flex;
+   margin-top: 40px;
+}
+#banner .banner-contains .btn-group a{
+    background-color: #8484bf;
+    padding: 15px 20px;
+    border-radius: 5px;
+    color: #fff;
+    margin-right: 20px;    
+}
+/* BANNER END */
+/* ABOUT */
+#about{
+    padding: 30px 0;
+}
+
+#about .row{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+#about .about-contains{
+    width: 570px;
+}
+
+#about .about-contains h6{
+    font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 15px;
+}
+#about .about-contains h1{
+    font-family: "Abril Fatface", serif;
+    font-size: 32px;
+}
+#about .about-contains p{
+    padding: 30px 0;
+    font-size: 16px;
+    line-height: 24px;
+}
+#about .about-contains ul{
+    margin-left: 20px;
+    padding: 20px;
+}
+#about .about-contains button{
+    
+    display: inline-block;
+    margin-top: 40px;
+    
+   
+   
+ }  
+ #about .about-contains button{
+  
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-right: 20px;  
+    box-shadow: 10px 10px 30px;  
+    
+  
+    
+ }
+ 
+ #about .about-contains button:hover{
+    background-color: #ffc712;
+ }
+  
+
+
+
+/* ABOUT END */
+
+
